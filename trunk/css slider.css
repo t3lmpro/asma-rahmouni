@@ -1,0 +1,22 @@
+.fp-slider {margin:0 0 10px 0; height:350px; width:935px; overflow:hidden; position:relative; z-index:-10px;}
+.fp-slides-container{}
+.fp-slides,.fp-thumbnail,.fp-prev-next-wrap,.fp-nav {width:935px;}
+
+.fp-slides,.fp-thumbnail {height:300px; overflow:hidden; position:relative;  box-shadow: 0px 1px 5px #999;}
+.fp-title {color:#fff; font: normal 12px GESSTwoMediumRegular,Tahoma; text-align:center; padding:0 0 2px 0; margin:0; opacity:1;}
+.fp-title a,.fp-title a:hover {color:#fff;text-decoration:none; opacity:1;}
+
+.fp-content {width:930px; position:absolute; bottom:0; right:0; background:#111; opacity:0.7;filter:alpha(opacity=70); padding:10px 25px; overflow:hidden;}
+.fp-content p {display: none; color:#fff; padding:0; margin:0; line-height:18px; text-align: right;}
+.fp-more,.fp-more:hover {color:#fff;}
+.fp-nav {height:12px; text-align:center; padding:10px 0; background: none;}
+
+.fp-pager a {background: url(http://4.bp.blogspot.com/-r8rt1cwxYS4/VAZGQPzwjQI/AAAAAAAADtQ/GYlN9n-U0Ac/s1600/featured-pager.png); cursor:pointer; margin: 0px 8px; padding:0; display:inline-block; width:12px; height:12px; overflow:hidden; text-indent: -999px; background-position:0 0; float:none; line-height:1; opacity:0.7;filter:alpha(opacity=70)}
+.fp-pager a:hover,.fp-pager a.activeSlide {text-decoration:none; background-position:0 -112px; opacity:1.0; filter:alpha(opacity=100)}
+
+.fp-prev-next-wrap {position:absolute; top:0px; left:0; height:350px;}
+.fp-prev {float:left; margin-left:0px; width:37px; height:300px; background: url(http://2.bp.blogspot.com/-AZQT0e41by0/U_UMzPXpCgI/AAAAAAAADeY/49ThfA9U1Xc/s1600/prev.png) left top no-repeat;opacity:0.3;filter:alpha(opacity=30)}
+.fp-prev:hover{opacity:0.5;filter:alpha(opacity=50);transition: all 0.35s ease-in-out 0s;}
+
+.fp-next{float:right; width:37px; height:300px; margin-right:0px; background: url(http://2.bp.blogspot.com/-B3_RsdbLdxE/U_UMyVA-3HI/AAAAAAAADeU/9h1eIEjohFY/s1600/next.png) right top no-repeat; opacity:0.3; filter:alpha(opacity=30)}
+.fp-next:hover{opacity:0.5;filter:alpha(opacity=50); transition: all 0.35s ease-in-out 0s;}
