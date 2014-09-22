@@ -1,0 +1,64 @@
+/* Comments Tab Styles*/
+
+.comments > h4 { margin: 0px !important; padding: 5px 10px; }
+.comments-page { display: none; margin: 10px 10px 10px 10px; }
+
+#blogger-comments-page { padding: 0px 0px; }
+.comment-form { margin: 10px; }
+.comments-tab {
+font: normal 13px 'GESSTwoMediumRegular', Tahoma;
+color: #fff;
+padding: 5px;
+margin-right: 7px;
+cursor: pointer;
+position: relative;
+z-index: 10;
+}
+#blogger-comments,
+#blogger-comments.js-inactive-tab:hover {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffce79', endColorstr='#eeaf41');
+	background:#F1B54B;
+	display:inline-block;
+	color:#ffffff;
+	font: normal 13px 'GESSTwoMediumRegular', Tahoma;
+	padding:6px 24px;
+	text-decoration:none;
+	}
+.blogger-comments:active {
+position:relative;
+top:1px;
+	}
+#blogger-comments.js-inactive-tab {
+border-bottom: 2px solid #C9953C;
+-moz-border-bottom: 5px;
+-webkit-border-bottom: 5px;
+}
+
+#fb-comments,
+#fb-comments.js-inactive-tab:hover {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+	background:#54A1DD;
+	display:inline-block;
+	color:#fff;
+	padding:6px 24px;
+	text-decoration:none;
+	}
+.fb-comments:hover {
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+	background-color:#468CCF;
+	}
+.fb-comments:active {
+	position:relative;
+	top:1px;
+	}
+#fb-comments.js-inactive-tab {
+border-bottom: 2px solid #246291;
+-moz-border-bottom: 5px;
+-webkit-border-bottom: 5px;
+ }
+
+.js-inactive-tab {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+ }
